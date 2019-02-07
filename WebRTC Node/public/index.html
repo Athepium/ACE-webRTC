@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <title>WebRTC - CamJS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+    <a class="navbar-brand" href="#">Maquette WebRTC V0.1</a>
+  </nav>
+
+<style>
+  body {
+    padding-top: 5rem;
+
+  }
+
+</style>
+
+<img src="https://webrtc.org/assets/images/webrtc-logo-vert-retro-255x305.png" margin-left: auto;
+    margin-right: auto;>
+  <div id="selectRoom">
+    <imput id="roomNumber"type="text" />
+    <button id="goRoom">Go</button>
+  </div>
+
+  <div id="ConsultingRoom" style="display:none">
+    <video id="localVideo" autoplay></<video>
+      <video id="remoteVideo" autoplay></<video>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+      <script src="client.js"></script>
+    </body>
